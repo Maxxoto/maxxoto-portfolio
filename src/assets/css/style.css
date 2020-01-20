@@ -1,0 +1,23 @@
+/* Navbar */
+.navbarTrans{
+    background-color: transparent !important; 
+    box-shadow:none !important;
+}
+.link a{
+    color : #fff !important;
+    text-decoration: none !important;
+    margin-right: 50px;
+}
+.link a:hover{
+    color : rgb(187, 187, 187) !important;
+    text-decoration: none !important;
+}
+
+/* Navbar */
+
+.bannerHeader{
+    height: 100vh;
+    padding-top: 100px;
+    background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
+}
+
