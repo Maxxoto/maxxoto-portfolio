@@ -14,6 +14,52 @@
 }
 
 /* Navbar */
+.collapse {
+    animation: anim .3s ease-in-out;
+}
+@keyframes anim {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+    1% {
+      display: block;
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+@media all and (max-width: 1024px) { 
+    .collapse-hidden{    
+        opacity:0;
+        transition: .3s ;
+        transform: scale(0);
+    }
+}
+/* SVG start */
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+fill: #fff;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+} 
+/* SVG end */
+
+/* End Navbar */
+
 
 .bannerHeader{
     height: 100vh;
@@ -21,3 +67,22 @@
     background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
 }
 
+/* Main Component */
+.bubble-pic{
+    background: url('../img/bubble.png');
+    width: 200px;    
+    height: 150px ;
+    position: absolute;
+    background-size: contain;
+    z-index: 1;
+    
+}
+.bubble-pic h1{
+    margin:auto;
+    vertical-align:middle;
+}
+
+.main-pic{
+    width: 800px;
+    height: 500px;
+}
