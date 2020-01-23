@@ -1,3 +1,4 @@
+
 /* Navbar */
 .navbarTrans{
     background-color: transparent !important; 
@@ -61,28 +62,88 @@ fill: #fff;
 /* End Navbar */
 
 
-.bannerHeader{
-    height: 100vh;
+.main{
+    height: 100%;
     padding-top: 100px;
     background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
 }
-
+@media only screen and (min-width: 1024px) {
+    .main{
+        height: 100vh;
+        padding-top: 100px;
+        background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
+    }
+}
 /* Main Component */
-.bubble-pic{
-    background: url('../img/bubble.png');
-    width: 200px;    
-    height: 150px ;
-    position: absolute;
-    background-size: contain;
-    z-index: 1;
-    
-}
-.bubble-pic h1{
-    margin:auto;
-    vertical-align:middle;
+
+.bubble-pic{       
+    width: 150px;    
+    height: 100px ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.main-pic{
-    width: 800px;
-    height: 500px;
+@media only screen and (min-width: 1024px) {
+    .bubble-pic{       
+        width: 175px;    
+        height: 125px ;
+        
+    }
 }
+
+@media only screen and (min-width: 1400px) {
+    .bubble-pic{       
+        width: 175px;    
+        height: 125px ;
+       
+    }
+}
+
+    
+
+@media only screen and (min-width: 1024px){
+    .main-pic{        
+        width: 800px;
+        height: 500px;
+    }
+}
+@media only screen and (min-width: 601px){
+    .main-pic{        
+        width: 800px;
+        height: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) { 
+    .main-pic{        
+        width: 600px;
+        height: 300px;
+    }
+}
+
+.devBig {
+    font-size: 120px;    
+}
+
+/* Skills  */
+.skills{
+    height: 100%;
+    padding-top: 100px;
+    background: linear-gradient(270deg, #2E00B3 0%, #0057FF 100%);
+}
+@media only screen and (min-width: 1024px) {
+    .skills{
+        height: 100vh;
+        padding-top: 100px;
+        background: linear-gradient(270deg, #2E00B3 0%, #0057FF 100%);
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .myName{
+        font-size:30px;
+    }
+    .devBig{
+        font-size:80px;
+    }
+}
+/* End Skills */
