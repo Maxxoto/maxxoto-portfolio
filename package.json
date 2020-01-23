@@ -1,7 +1,7 @@
 {
   "name": "maxxoto.github.io",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.10.2",
