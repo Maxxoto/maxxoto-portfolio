@@ -17,6 +17,7 @@
 /* Navbar */
 .collapse {
     animation: anim .3s ease-in-out;
+    background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
 }
 @keyframes anim {
     0% {
