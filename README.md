@@ -1,5 +1,5 @@
 [![Maxxoto](https://circleci.com/gh/Maxxoto/maxxoto-portfolio.svg?style=svg)](https://app.circleci.com/github/Maxxoto/maxxoto-portfolio/pipelines)
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
 ## Available Scripts
 
 In the project directory, you can run:
