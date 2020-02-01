@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![CircleCI](https://circleci.com/gh/maxxoto/maxxoto-portfolio.svg?style=svg)](https://app.circleci.com/github/Maxxoto/maxxoto-portfolio/pipelines)
 
 ## Available Scripts
 
