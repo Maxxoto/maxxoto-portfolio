@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/maxxoto/maxxoto-portfolio.svg?style=svg)](https://app.circleci.com/github/Maxxoto/maxxoto-portfolio/pipelines)
+[![Maxxoto](https://circleci.com/gh/maxxoto/maxxoto-portfolio.svg?style=svg)](https://app.circleci.com/github/Maxxoto/maxxoto-portfolio/pipelines)
 
 ## Available Scripts
 
