@@ -3,7 +3,7 @@ version: 2.1
 # Use a package of configuration called an orb.
 orbs:
   # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1,
+  welcome: circleci/welcome-orb@0.4.1
   codecov: codecov/codecov@1.0.2
 # Orchestrate or schedule a set of jobs
 workflows:
@@ -12,7 +12,9 @@ workflows:
     # Run the welcome/run job in its own container
     jobs:
       - welcome/run
-      builds:
-        steps:
-          - codecov/upload :
-              file : {{ coverage_report_filepath }}
+      
+jobs :
+  builds:
+    steps:
+      - codecov/upload :
+          file : {{ coverage_report_filepath }}
