@@ -3,6 +3,7 @@
 .navbarTrans{
     background-color: transparent !important; 
     box-shadow:none !important;
+    z-index:3
 }
 .link a{
     color : #fff !important;
@@ -61,8 +62,24 @@ fill: #fff;
 /* SVG end */
 
 /* End Navbar */
+/* Particle */
 
+.particle {
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: 1;
+}
+@media only screen and (min-width: 1024px) {
+    .particle{
+        position: absolute;
+        height:85%;
+        width: 100%;
+        z-index: 1;
+    }
+}
 
+/* Particle */
 .main{
     height: 100%;
     padding-top: 100px;
@@ -73,6 +90,7 @@ fill: #fff;
         height: 100vh;
         padding-top: 100px;
         background: linear-gradient(268.03deg, #5908EA 1.14%, #C562AF 99.04%); 
+      
     }
 }
 /* Main Component */
