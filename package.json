@@ -37,6 +37,7 @@
     "@fullhuman/postcss-purgecss": "^2.0.5",
     "autoprefixer": "^9.7.4",
     "postcss-cli": "^7.1.0",
+    "react-helmet": "^5.2.1",
     "react-particles-js": "^2.7.1",
     "tailwindcss": "^1.1.4"
   }
